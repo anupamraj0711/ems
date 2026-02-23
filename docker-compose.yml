@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  ems_frontend:
+    container_name: ems_frontend
+    build: .
+    ports:
+      - "5173:5173"
+    restart: always
