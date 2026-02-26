@@ -12,7 +12,7 @@ const Login = ({ handleLogin }) => {
     }
 
     return (
-        <div className='flex h-screen w-screen items-center justify-center bg-red-300'>
+        <div className='flex h-screen w-screen items-center justify-center bg-black-300'>
             {/* Login Card */}
             <div className='bg-neutral-900 p-10 rounded-2xl border border-emerald-600/30 shadow-[0_0_20px_rgba(16,185,129,0.1)] w-full max-w-md'>
                 
